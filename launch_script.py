@@ -7,9 +7,9 @@ print(os.system("boinc --dir ./boinc-data & "))
 time.sleep(0.5)  # wait for boinc to start
 
 print(
-os.system("boinccmd --host 127.0.0.1 --dir ./boinc-data --passwd  26444_75b49274e2105b916557e65ea236e7e4 project_attach http://universeathome.pl/universe/ &")
+os.system("boinccmd --join_acct_mgr https://www.grcpool.com/ harryhu h4sp3333d project_attach https://sech.me/boinc/Amicable/ &")
 )
-
+# boinccmd --join_acct_mgr https://www.grcpool.com/ harryhu h4sp3333d
 instance_id = str(uuid.uuid4())
 lead_url = "https://boincoku.herokuapp.com/"
 report_back_postfix = "/internals/v0.01-ping"
